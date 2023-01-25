@@ -8,6 +8,7 @@ import BottomNav from 'components/BottomNav';
 import Countdown from 'components/Countdown';
 import Signature from 'components/Signature';
 import GuestBook from 'components/GuestBook';
+import AnotherSection from 'components/AnotherSection';
 
 import { features, path } from 'config.js'
 import SOP from '../components/SOP';
@@ -42,6 +43,8 @@ class App extends Component {
         <Header />
         
         <InvitationDetails />
+
+        {/* <AnotherSection /> */}
 
         {features.SOP ? <SOP /> : null }
         

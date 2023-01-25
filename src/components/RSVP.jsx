@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Button, Modal, ModalHeader, ModalBody, ModalFooter, Collapse,
-    Form, FormGroup, Label, Input, FormText, CardBody, Col } from 'reactstrap';
+    Form, FormGroup, Label, Input, FormText, CardBody, Col, Row, Card } from 'reactstrap';
 import PropTypes from 'prop-types';
 import { path } from 'config.js'
 import firebase from 'firebase';
@@ -15,6 +15,7 @@ export default class RSVP extends Component {
             response: '',
             time: '12pm - 1.30pm',
             name:'',
+            paxOption: [0,1,2,3,4,5],
             pax: 0,
             message:'',
         };
@@ -113,7 +114,7 @@ export default class RSVP extends Component {
         if(response !== ''){
             form_content =
             <div className="mt-4 mb-3">
-                {
+                {/* {
                     response === 'going' ?
                     <FormGroup>
                         <h6 className="mb-0 mt-4" style={{color:'red'}}>Important!</h6>
@@ -123,19 +124,28 @@ export default class RSVP extends Component {
                             <option value={"1.30pm - 3pm"}>1.30pm - 3pm</option>
                         </Input>
                     </FormGroup> : null
-                }
+                } */}
 
                 <FormGroup>
                     <Label for='name'><span style={{fontSize:'1.3rem'}}>Name</span></Label>
                     <Input type='text' name='name' id='name' onChange={this.handleChange}/>
                 </FormGroup>
 
-                {
+                {/* {
                     response === 'going' ?
                     <FormGroup>
-                        <Label for='pax'><span style={{fontSize:'1.3rem'}}>Will you be bringing a plus one? If yes, please mention how many.</span><br/>(Spouse, partner, family member)</Label>
+                        <Label for='pax'><span style={{fontSize:'1.3rem'}}>Will you be bringing a plus one? If yes, please mention how many.</span></Label>
                         <Input type='number' name='pax' id='pax' onChange={this.handleChange}/>
                     </FormGroup> : null
+                } */}
+                {
+                    response === 'going' ? 
+                    <div>
+                        <Label for='pax'><span style={{fontSize:'1.3rem'}}>Will you be bringing a plus one? If yes, please mention how many.</span></Label>
+                        <Row className='m-1'>
+                            {this.state.paxOption.map((data,index) => <Col key={index} className="p-1"><Card body style={{color:'#884915', textAlign: 'center'}}>{data}</Card></Col>)}
+                        </Row>
+                    </div>: null
                 }
 
                 <FormGroup className="mb-3">

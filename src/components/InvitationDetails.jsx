@@ -8,7 +8,7 @@ class InvitationDetails extends PureComponent {
     render() {
         return (
             <>
-                <div style={{background:`url(${BackBg})`, backgroundPosition:'center', backgroundSize:'cover', backgroundRepeat:'no-repeat', width:'100%', paddingTop:'calc(152% - 55px)'}}>
+                <div style={{background:`url(${BackBg})`, backgroundPosition:'center', backgroundSize:'cover', backgroundRepeat:'no-repeat', width:'100%', paddingTop:'calc(152% - 90px)'}}>
                 </div>
                 
                 <hr/>
