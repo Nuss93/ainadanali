@@ -3337,7 +3337,7 @@ input[type="button"].btn-block {
   flex-direction: column;
   min-width: 0;
   word-wrap: break-word;
-  background-color: #F4D57C;
+  background-color: #fff;
   background-clip: border-box;
   border: 0.0625rem solid rgba(0, 0, 0, 0.05);
   border-radius: 0.25rem; }

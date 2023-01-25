@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/ainadanali/static/css/main.ca303979.chunk.css",
-    "main.js": "/ainadanali/static/js/main.e8825e89.chunk.js",
-    "main.js.map": "/ainadanali/static/js/main.e8825e89.chunk.js.map",
+    "main.js": "/ainadanali/static/js/main.67823564.chunk.js",
+    "main.js.map": "/ainadanali/static/js/main.67823564.chunk.js.map",
     "runtime-main.js": "/ainadanali/static/js/runtime-main.47485f0d.js",
     "runtime-main.js.map": "/ainadanali/static/js/runtime-main.47485f0d.js.map",
     "static/css/2.80f479d8.chunk.css": "/ainadanali/static/css/2.80f479d8.chunk.css",
     "static/js/2.a9fb1016.chunk.js": "/ainadanali/static/js/2.a9fb1016.chunk.js",
     "static/js/2.a9fb1016.chunk.js.map": "/ainadanali/static/js/2.a9fb1016.chunk.js.map",
     "index.html": "/ainadanali/index.html",
-    "precache-manifest.41fcbeb612918c8204dac83c729953f8.js": "/ainadanali/precache-manifest.41fcbeb612918c8204dac83c729953f8.js",
+    "precache-manifest.0aa67c1258228846946958ec3d556f99.js": "/ainadanali/precache-manifest.0aa67c1258228846946958ec3d556f99.js",
     "service-worker.js": "/ainadanali/service-worker.js",
     "static/css/2.80f479d8.chunk.css.map": "/ainadanali/static/css/2.80f479d8.chunk.css.map",
     "static/css/main.ca303979.chunk.css.map": "/ainadanali/static/css/main.ca303979.chunk.css.map",
@@ -33,6 +33,6 @@
     "static/css/2.80f479d8.chunk.css",
     "static/js/2.a9fb1016.chunk.js",
     "static/css/main.ca303979.chunk.css",
-    "static/js/main.e8825e89.chunk.js"
+    "static/js/main.67823564.chunk.js"
   ]
 }
