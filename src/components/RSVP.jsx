@@ -15,8 +15,8 @@ export default class RSVP extends Component {
             response: '',
             time: '12pm - 1.30pm',
             name:'',
-            paxOption: [0,1,2,3,4,5],
-            pax: 0,
+            paxOption: [1,2,3,4,5],
+            pax: 1,
             message:'',
         };
     }
@@ -33,7 +33,10 @@ export default class RSVP extends Component {
             modalReminder : !this.state. modalReminder,
         })
     }
-
+    selectPax = (pax) => {
+        // console.log('pax', pax);
+        this.setState({pax : pax})
+    }
     _markResponse = (response) => {
         this.setState({response: response})
     }
@@ -70,7 +73,7 @@ export default class RSVP extends Component {
                 message: message,
                 timestamp: firebase.database.ServerValue.TIMESTAMP
             }).then(() => {
-                this.setState({ response:'', name:'', pax:0, message:'', loadButt: false }, () => {
+                this.setState({ response:'', name:'', pax:1, message:'', loadButt: false }, () => {
                     this.props.parentRefresh()
                     this.toggleRSVP();
                 });
@@ -95,7 +98,7 @@ export default class RSVP extends Component {
                 message: message,
                 timestamp: firebase.database.ServerValue.TIMESTAMP
             }).then(() => {
-                this.setState({ response:'', name:'', pax:0, message:'', loadButt: false }, () => {
+                this.setState({ response:'', name:'', pax:1, message:'', loadButt: false }, () => {
                     this.props.parentRefresh()
                     this.toggleRSVP();
                 });
@@ -141,9 +144,9 @@ export default class RSVP extends Component {
                 {
                     response === 'going' ? 
                     <div>
-                        <Label for='pax'><span style={{fontSize:'1.3rem'}}>Will you be bringing a plus one? If yes, please mention how many.</span></Label>
+                        <Label for='pax'><span style={{fontSize:'1.3rem'}}>How many people are attending? (including yourself)</span></Label>
                         <Row className='m-1'>
-                            {this.state.paxOption.map((data,index) => <Col key={index} className="p-1"><Card body style={{color:'#884915', textAlign: 'center'}}>{data}</Card></Col>)}
+                            {this.state.paxOption.map((data,index) => <Col key={index} className="p-1" onClick={() => {this.selectPax(data)}}><Card body style={{color:'#884915', textAlign: 'center', backgroundColor: data === this.state.pax ? '#F4AF32' : null}}>{data}</Card></Col>)}
                         </Row>
                     </div>: null
                 }
@@ -200,7 +203,7 @@ export default class RSVP extends Component {
                     <ModalFooter>
                         {this._renderButton()}{' '}
                         <Button className='ml-auto text-white' color='link' onClick={() => {
-                            this.setState({ response:'', name:'', pax:0, message:'' });
+                            this.setState({ response:'', name:'', pax:1, message:'' });
                             this.toggleRSVP();
                         }}>Cancel</Button>
                     </ModalFooter>
