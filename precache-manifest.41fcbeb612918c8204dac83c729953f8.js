@@ -1,35 +1,39 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a68ade0f51e2979fb04ad750b1d8460c",
+    "revision": "ea951bff764ee5b2cb9c9859ab9ac17e",
     "url": "/ainadanali/index.html"
   },
   {
-    "revision": "0b54a0136c488f6ab26f",
+    "revision": "61673f4daf9d6b1add00",
     "url": "/ainadanali/static/css/2.80f479d8.chunk.css"
   },
   {
-    "revision": "4ffa39ae967b53fc6bf5",
-    "url": "/ainadanali/static/css/main.76196aed.chunk.css"
+    "revision": "3283bf96efa08146d35d",
+    "url": "/ainadanali/static/css/main.ca303979.chunk.css"
   },
   {
-    "revision": "0b54a0136c488f6ab26f",
-    "url": "/ainadanali/static/js/2.e29bfc4e.chunk.js"
+    "revision": "61673f4daf9d6b1add00",
+    "url": "/ainadanali/static/js/2.a9fb1016.chunk.js"
   },
   {
     "revision": "015db83eb80580e8a2cecacc6eb1461a",
-    "url": "/ainadanali/static/js/2.e29bfc4e.chunk.js.LICENSE.txt"
+    "url": "/ainadanali/static/js/2.a9fb1016.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "4ffa39ae967b53fc6bf5",
-    "url": "/ainadanali/static/js/main.5c7713aa.chunk.js"
+    "revision": "3283bf96efa08146d35d",
+    "url": "/ainadanali/static/js/main.e8825e89.chunk.js"
   },
   {
     "revision": "ff034503b7a16369b913",
     "url": "/ainadanali/static/js/runtime-main.47485f0d.js"
   },
   {
-    "revision": "a7af805e66f27d70fe50c905bcca8560",
-    "url": "/ainadanali/static/media/back.a7af805e.png"
+    "revision": "e2533e1a0acd84fcb6fde6870d8775b7",
+    "url": "/ainadanali/static/media/aturcara.e2533e1a.png"
+  },
+  {
+    "revision": "3b79e8f0c3be565fd9e3f50bbcec6ed4",
+    "url": "/ainadanali/static/media/back.3b79e8f0.png"
   },
   {
     "revision": "674f50d287a8c48dc19ba404d20fe713",
@@ -56,8 +60,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/ainadanali/static/media/gps.de310801.svg"
   },
   {
-    "revision": "017fd2ff803066b7c8f862896102bb4f",
-    "url": "/ainadanali/static/media/header.017fd2ff.png"
+    "revision": "14767cda0feb8fdf83ff706234002481",
+    "url": "/ainadanali/static/media/header.14767cda.png"
   },
   {
     "revision": "5d5d9eefa31e5e13a6610d9fa7a283bb",

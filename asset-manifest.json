@@ -1,23 +1,24 @@
 {
   "files": {
-    "main.css": "/ainadanali/static/css/main.76196aed.chunk.css",
-    "main.js": "/ainadanali/static/js/main.5c7713aa.chunk.js",
-    "main.js.map": "/ainadanali/static/js/main.5c7713aa.chunk.js.map",
+    "main.css": "/ainadanali/static/css/main.ca303979.chunk.css",
+    "main.js": "/ainadanali/static/js/main.e8825e89.chunk.js",
+    "main.js.map": "/ainadanali/static/js/main.e8825e89.chunk.js.map",
     "runtime-main.js": "/ainadanali/static/js/runtime-main.47485f0d.js",
     "runtime-main.js.map": "/ainadanali/static/js/runtime-main.47485f0d.js.map",
     "static/css/2.80f479d8.chunk.css": "/ainadanali/static/css/2.80f479d8.chunk.css",
-    "static/js/2.e29bfc4e.chunk.js": "/ainadanali/static/js/2.e29bfc4e.chunk.js",
-    "static/js/2.e29bfc4e.chunk.js.map": "/ainadanali/static/js/2.e29bfc4e.chunk.js.map",
+    "static/js/2.a9fb1016.chunk.js": "/ainadanali/static/js/2.a9fb1016.chunk.js",
+    "static/js/2.a9fb1016.chunk.js.map": "/ainadanali/static/js/2.a9fb1016.chunk.js.map",
     "index.html": "/ainadanali/index.html",
-    "precache-manifest.373121f259d5f5a1bccae20393e13a57.js": "/ainadanali/precache-manifest.373121f259d5f5a1bccae20393e13a57.js",
+    "precache-manifest.41fcbeb612918c8204dac83c729953f8.js": "/ainadanali/precache-manifest.41fcbeb612918c8204dac83c729953f8.js",
     "service-worker.js": "/ainadanali/service-worker.js",
     "static/css/2.80f479d8.chunk.css.map": "/ainadanali/static/css/2.80f479d8.chunk.css.map",
-    "static/css/main.76196aed.chunk.css.map": "/ainadanali/static/css/main.76196aed.chunk.css.map",
-    "static/js/2.e29bfc4e.chunk.js.LICENSE.txt": "/ainadanali/static/js/2.e29bfc4e.chunk.js.LICENSE.txt",
-    "static/media/back.png": "/ainadanali/static/media/back.a7af805e.png",
+    "static/css/main.ca303979.chunk.css.map": "/ainadanali/static/css/main.ca303979.chunk.css.map",
+    "static/js/2.a9fb1016.chunk.js.LICENSE.txt": "/ainadanali/static/js/2.a9fb1016.chunk.js.LICENSE.txt",
+    "static/media/aturcara.png": "/ainadanali/static/media/aturcara.e2533e1a.png",
+    "static/media/back.png": "/ainadanali/static/media/back.3b79e8f0.png",
     "static/media/font-awesome.min.css": "/ainadanali/static/media/fontawesome-webfont.fee66e71.woff",
     "static/media/gps.svg": "/ainadanali/static/media/gps.de310801.svg",
-    "static/media/header.png": "/ainadanali/static/media/header.017fd2ff.png",
+    "static/media/header.png": "/ainadanali/static/media/header.14767cda.png",
     "static/media/logo.svg": "/ainadanali/static/media/logo.5d5d9eef.svg",
     "static/media/map.png": "/ainadanali/static/media/map.812f47f0.png",
     "static/media/nucleo.css": "/ainadanali/static/media/nucleo-icons.f82ec6ba.ttf",
@@ -30,8 +31,8 @@
   "entrypoints": [
     "static/js/runtime-main.47485f0d.js",
     "static/css/2.80f479d8.chunk.css",
-    "static/js/2.e29bfc4e.chunk.js",
-    "static/css/main.76196aed.chunk.css",
-    "static/js/main.5c7713aa.chunk.js"
+    "static/js/2.a9fb1016.chunk.js",
+    "static/css/main.ca303979.chunk.css",
+    "static/js/main.e8825e89.chunk.js"
   ]
 }
