@@ -2,7 +2,7 @@
   "name": "alyaximadi",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://Nuss93.github.io/ainaxali",
+  "homepage": "http://nuss93.github.io/ainaxali",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
