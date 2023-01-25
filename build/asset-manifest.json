@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/ainadanali/static/css/main.ca303979.chunk.css",
+    "main.css": "/ainadanali/static/css/main.76196aed.chunk.css",
     "main.js": "/ainadanali/static/js/main.67823564.chunk.js",
     "main.js.map": "/ainadanali/static/js/main.67823564.chunk.js.map",
     "runtime-main.js": "/ainadanali/static/js/runtime-main.47485f0d.js",
@@ -9,10 +9,10 @@
     "static/js/2.a9fb1016.chunk.js": "/ainadanali/static/js/2.a9fb1016.chunk.js",
     "static/js/2.a9fb1016.chunk.js.map": "/ainadanali/static/js/2.a9fb1016.chunk.js.map",
     "index.html": "/ainadanali/index.html",
-    "precache-manifest.0aa67c1258228846946958ec3d556f99.js": "/ainadanali/precache-manifest.0aa67c1258228846946958ec3d556f99.js",
+    "precache-manifest.758096afb0c4950311a85d1b80c95187.js": "/ainadanali/precache-manifest.758096afb0c4950311a85d1b80c95187.js",
     "service-worker.js": "/ainadanali/service-worker.js",
     "static/css/2.80f479d8.chunk.css.map": "/ainadanali/static/css/2.80f479d8.chunk.css.map",
-    "static/css/main.ca303979.chunk.css.map": "/ainadanali/static/css/main.ca303979.chunk.css.map",
+    "static/css/main.76196aed.chunk.css.map": "/ainadanali/static/css/main.76196aed.chunk.css.map",
     "static/js/2.a9fb1016.chunk.js.LICENSE.txt": "/ainadanali/static/js/2.a9fb1016.chunk.js.LICENSE.txt",
     "static/media/aturcara.png": "/ainadanali/static/media/aturcara.e2533e1a.png",
     "static/media/back.png": "/ainadanali/static/media/back.3b79e8f0.png",
@@ -32,7 +32,7 @@
     "static/js/runtime-main.47485f0d.js",
     "static/css/2.80f479d8.chunk.css",
     "static/js/2.a9fb1016.chunk.js",
-    "static/css/main.ca303979.chunk.css",
+    "static/css/main.76196aed.chunk.css",
     "static/js/main.67823564.chunk.js"
   ]
 }
