@@ -5,7 +5,7 @@ var features = {
     quotes: true,
     guestBook: true,
     calendar: true,
-    SOP: true,
+    SOP: false,
 }
 
 export { path, features }

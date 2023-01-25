@@ -177,7 +177,7 @@ export default class RSVP extends Component {
         
         return (
             <div>
-                <Button onClick={this.toggleREMINDER} color="primary" style={{...styles.RSVP, margin:'0'}}>RSVP</Button>
+                <Button onClick={this.toggleRSVP} color="primary" style={{...styles.RSVP, margin:'0'}}>RSVP</Button>
 
                 {/* ===toggleRSVP=== */}
                 <Modal className="modal-dialog-centered modal-default" style={{maxWidth:'425px', color:'white'}} isOpen={this.state.modalRSVP} toggle={this.toggleRSVP}>
