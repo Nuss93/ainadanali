@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ea951bff764ee5b2cb9c9859ab9ac17e",
+    "revision": "c3a4e238dd0e5481589b577acdcadd9e",
     "url": "/ainadanali/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/ainadanali/static/css/2.80f479d8.chunk.css"
   },
   {
-    "revision": "3283bf96efa08146d35d",
+    "revision": "a6e2bd8102a6bdc8b694",
     "url": "/ainadanali/static/css/main.ca303979.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/ainadanali/static/js/2.a9fb1016.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "3283bf96efa08146d35d",
-    "url": "/ainadanali/static/js/main.e8825e89.chunk.js"
+    "revision": "a6e2bd8102a6bdc8b694",
+    "url": "/ainadanali/static/js/main.67823564.chunk.js"
   },
   {
     "revision": "ff034503b7a16369b913",
