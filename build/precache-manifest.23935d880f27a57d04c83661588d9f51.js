@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "1c72e5f5206309770ce08282b2ed6e04",
+    "revision": "378338798b74ceb7837dc4753f9f21d0",
     "url": "/ainadanali/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/ainadanali/static/css/2.80f479d8.chunk.css"
   },
   {
-    "revision": "31ac0c5983fe820efc55",
+    "revision": "4c057f172d2be1334e43",
     "url": "/ainadanali/static/css/main.76196aed.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/ainadanali/static/js/2.a9fb1016.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "31ac0c5983fe820efc55",
-    "url": "/ainadanali/static/js/main.67823564.chunk.js"
+    "revision": "4c057f172d2be1334e43",
+    "url": "/ainadanali/static/js/main.c1dbd61d.chunk.js"
   },
   {
     "revision": "ff034503b7a16369b913",
@@ -32,8 +32,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/ainadanali/static/media/aturcara.e2533e1a.png"
   },
   {
-    "revision": "3b79e8f0c3be565fd9e3f50bbcec6ed4",
-    "url": "/ainadanali/static/media/back.3b79e8f0.png"
+    "revision": "a229410eedf6c86501669717e7ac487f",
+    "url": "/ainadanali/static/media/back.a229410e.png"
   },
   {
     "revision": "674f50d287a8c48dc19ba404d20fe713",
