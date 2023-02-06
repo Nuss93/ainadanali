@@ -77,10 +77,10 @@ class BottomNav extends Component {
                             <div>+60122927350</div>
                         </a>
 
-                        <a href={'https://wa.me/60122838344'} target='_blank' style={styles.wasepbutton} className="bg-gradient-white text-default">
+                        {/* <a href={'https://wa.me/60122838344'} target='_blank' style={styles.wasepbutton} className="bg-gradient-white text-default">
                             <div>Dato' Dr. Razak</div>
                             <div>+60122838344</div>
-                        </a>
+                        </a> */}
                     </ModalBody>
                     <ModalFooter>
                         {/* <Button color='primary' onClick={() => {this.toggleModal('WSModal')}}>Do Something</Button>{' '} */}
